@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\scn">
+      <UniqueIdentifier>{0e5b73c8-6b22-42ac-8336-be4299a69111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files">
+      <UniqueIdentifier>{170b9255-0de1-4f09-ad78-1e93130f603f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\scn\test">
+      <UniqueIdentifier>{0406828c-57a9-4155-bb0e-ff486c16fb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scn\test2">
+      <UniqueIdentifier>{27829ad8-d78b-4ce2-b575-edd71977b69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork">
+      <UniqueIdentifier>{34c0375d-84d6-4b0a-89af-1d2c73200b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action">
+      <UniqueIdentifier>{08ec2c54-11c3-4c87-a9a1-9b226b359b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action\Interval">
+      <UniqueIdentifier>{b80e9fd5-7012-4b15-aa09-be7bf3c95e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action\Interval\MoveAction">
+      <UniqueIdentifier>{f77363dd-b8ed-4e71-95a2-0a96f5ce3cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action\Interval\ScaleAction">
+      <UniqueIdentifier>{507858b9-2b32-4f3d-9e48-de3a62d4b474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action\Interval\RotateAction">
+      <UniqueIdentifier>{bb2de9b5-4686-4f18-866b-4cc228fb2bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action\Interval\FadeAction">
+      <UniqueIdentifier>{6562cb93-b65c-440d-b0c0-ae2d846e1e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action\Interval\DelayAction">
+      <UniqueIdentifier>{858afb85-9fb0-4440-9e83-97c5ec912531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\FOM">
+      <UniqueIdentifier>{e2e92dca-47db-40ed-9902-dfe1d456f141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\AVDirector">
+      <UniqueIdentifier>{bdacfbc5-63b8-405f-b188-f888965078f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\AVDirector\D3D">
+      <UniqueIdentifier>{a5455262-031c-467f-b242-197a70e8c754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\AVTexture2D">
+      <UniqueIdentifier>{b410530d-b919-4632-9947-70d8f64f34b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Base">
+      <UniqueIdentifier>{2339d489-1933-4620-96d2-6e9f57a15d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Sound">
+      <UniqueIdentifier>{ae14bb1e-cc7c-442f-b9bf-a0c6ddb3b80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\String">
+      <UniqueIdentifier>{8cd449c5-41b7-4d50-a820-6c4202dbba8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Sprite">
+      <UniqueIdentifier>{9da85c0d-2ddc-4dcb-b7eb-c639046cb76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\GraphicFont%28Number%29">
+      <UniqueIdentifier>{3b21d9d6-740b-4ba4-b489-a19fad96a184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Info">
+      <UniqueIdentifier>{f84a4e0b-e580-4b1c-8dd4-b9656394dbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Animation">
+      <UniqueIdentifier>{1e1db308-4cb1-4dcc-9132-4f79fc60a2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Scene">
+      <UniqueIdentifier>{ff2b5848-67a6-4917-97b9-297f64040815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\Action\Interval\MoveAction\Rotate_Move">
+      <UniqueIdentifier>{eded8685-814c-4cd3-8d11-0c68d027e374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Note_Info">
+      <UniqueIdentifier>{308048e2-f62c-41e8-8cd9-dbfb0c338980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AV_GameFrameWork\SharedTexture">
+      <UniqueIdentifier>{5c3307b0-143b-4d8d-bf1f-8a5466bd085e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Judgment">
+      <UniqueIdentifier>{7f6adba4-bd36-4a1e-9115-3d6df7a907ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Interface">
+      <UniqueIdentifier>{56f252d4-af5a-4b4b-9a12-0a70b4da3d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\Note">
+      <UniqueIdentifier>{3db86c7e-521e-4e6d-b9db-14f6ed8464a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\PreviewJudgment">
+      <UniqueIdentifier>{cdc86570-9c38-41f0-8fba-e87900b4b8f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AVString.cpp">
+      <Filter>Header Files\AV_GameFrameWork\String</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOpenManager.cpp">
+      <Filter>Header Files\AV_GameFrameWork\FOM</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalAction.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAction.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\MoveAction</Filter>
+    </ClCompile>
+    <ClCompile Include="Scn_Test.cpp">
+      <Filter>Source Files\scn\test</Filter>
+    </ClCompile>
+    <ClCompile Include="AVDirector.cpp">
+      <Filter>Header Files\AV_GameFrameWork\AVDirector</Filter>
+    </ClCompile>
+    <ClCompile Include="AVWinD3D.cpp">
+      <Filter>Header Files\AV_GameFrameWork\AVDirector\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AVBase.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeAction.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\FadeAction</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateAction.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\RotateAction</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleAction.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\ScaleAction</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionManager.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayAction.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\DelayAction</Filter>
+    </ClCompile>
+    <ClCompile Include="AVTexture2D.cpp">
+      <Filter>Header Files\AV_GameFrameWork\AVTexture2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Scn_Test2.cpp">
+      <Filter>Source Files\scn\test2</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicFont.cpp">
+      <Filter>Header Files\AV_GameFrameWork\GraphicFont%28Number%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Information.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationMove.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\MoveAction\Rotate_Move</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedTexture2D.cpp">
+      <Filter>Header Files\AV_GameFrameWork\SharedTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Judgment.cpp">
+      <Filter>Class Files\Judgment</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteInterface.cpp">
+      <Filter>Class Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Class Files\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Header Files\AV_GameFrameWork\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PVJudgment.cpp">
+      <Filter>Class Files\PreviewJudgment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\AV_GameFrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AVString.h">
+      <Filter>Header Files\AV_GameFrameWork\String</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Header Files\AV_GameFrameWork\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOpenManager.h">
+      <Filter>Header Files\AV_GameFrameWork\FOM</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalAction.h">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAction.h">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\MoveAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Scn_Test.h">
+      <Filter>Source Files\scn\test</Filter>
+    </ClInclude>
+    <ClInclude Include="AVDirector.h">
+      <Filter>Header Files\AV_GameFrameWork\AVDirector</Filter>
+    </ClInclude>
+    <ClInclude Include="AVWinD3D.h">
+      <Filter>Header Files\AV_GameFrameWork\AVDirector\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AVBase.h">
+      <Filter>Header Files\AV_GameFrameWork\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeAction.h">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\FadeAction</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateAction.h">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\RotateAction</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleAction.h">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\ScaleAction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionManager.h">
+      <Filter>Header Files\AV_GameFrameWork\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayAction.h">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\DelayAction</Filter>
+    </ClInclude>
+    <ClInclude Include="AVTexture2D.h">
+      <Filter>Header Files\AV_GameFrameWork\AVTexture2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\AV_GameFrameWork\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Scn_Test2.h">
+      <Filter>Source Files\scn\test2</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicFont.h">
+      <Filter>Header Files\AV_GameFrameWork\GraphicFont%28Number%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Information.h">
+      <Filter>Header Files\AV_GameFrameWork\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\AV_GameFrameWork\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationMove.h">
+      <Filter>Header Files\AV_GameFrameWork\Action\Interval\MoveAction\Rotate_Move</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedTexture2D.h">
+      <Filter>Header Files\AV_GameFrameWork\SharedTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Judgment.h">
+      <Filter>Class Files\Judgment</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteInterface.h">
+      <Filter>Class Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Aven.h">
+      <Filter>Header Files\AV_GameFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>Class Files\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="Note_Info.h">
+      <Filter>Class Files\Note_Info</Filter>
+    </ClInclude>
+    <ClInclude Include="PVJudgment.h">
+      <Filter>Class Files\PreviewJudgment</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ACFC3219-213F-4949-A67D-EBE545BC10C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Note_Tool</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionManager.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AVBase.cpp" />
+    <ClCompile Include="AVTexture2D.cpp" />
+    <ClCompile Include="AVWinD3D.cpp" />
+    <ClCompile Include="AVDirector.cpp" />
+    <ClCompile Include="AVString.cpp" />
+    <ClCompile Include="DelayAction.cpp" />
+    <ClCompile Include="FadeAction.cpp" />
+    <ClCompile Include="FileOpenManager.cpp" />
+    <ClCompile Include="GraphicFont.cpp" />
+    <ClCompile Include="IntervalAction.cpp" />
+    <ClCompile Include="Judgment.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MoveAction.cpp" />
+    <ClCompile Include="Note.cpp" />
+    <ClCompile Include="NoteInterface.cpp" />
+    <ClCompile Include="PVJudgment.cpp" />
+    <ClCompile Include="RotateAction.cpp" />
+    <ClCompile Include="RotationMove.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ScaleAction.cpp" />
+    <ClCompile Include="Information.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Scn_Test.cpp" />
+    <ClCompile Include="Scn_Test2.cpp" />
+    <ClCompile Include="SharedTexture2D.cpp" />
+    <ClCompile Include="SoundPlayer.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionManager.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AVBase.h" />
+    <ClInclude Include="Aven.h" />
+    <ClInclude Include="AVTexture2D.h" />
+    <ClInclude Include="AVWinD3D.h" />
+    <ClInclude Include="AVDirector.h" />
+    <ClInclude Include="AVString.h" />
+    <ClInclude Include="DelayAction.h" />
+    <ClInclude Include="FadeAction.h" />
+    <ClInclude Include="FileOpenManager.h" />
+    <ClInclude Include="GraphicFont.h" />
+    <ClInclude Include="IntervalAction.h" />
+    <ClInclude Include="Judgment.h" />
+    <ClInclude Include="MoveAction.h" />
+    <ClInclude Include="Note.h" />
+    <ClInclude Include="NoteInterface.h" />
+    <ClInclude Include="Note_Info.h" />
+    <ClInclude Include="PVJudgment.h" />
+    <ClInclude Include="RotateAction.h" />
+    <ClInclude Include="RotationMove.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ScaleAction.h" />
+    <ClInclude Include="Information.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Scn_Test.h" />
+    <ClInclude Include="Scn_Test2.h" />
+    <ClInclude Include="SharedTexture2D.h" />
+    <ClInclude Include="SoundPlayer.h" />
+    <ClInclude Include="Sprite.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
